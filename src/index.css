@@ -1,13 +1,14 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* background-color: #fae19d; */
+  background-image: url('https://media.istockphoto.com/photos/glittering-gradient-background-with-hologram-effect-and-magic-lights-picture-id983495302?b=1&k=20&m=983495302&s=170667a&w=0&h=JjMZQIZXsqibj_l9P5k2AUFbCeCvsb_I4oz4L1uAJW4=');
+  
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
